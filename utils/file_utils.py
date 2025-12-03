@@ -15,3 +15,8 @@ def dir_exists(path: str) -> bool:
 def get_extension(path: str) -> str:
     """获取文件扩展名"""
     return os.path.splitext(path)[1]
+
+
+def get_filename(path: str) -> str:
+    """获取文件名"""
+    return os.path.basename(path)
