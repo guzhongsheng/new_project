@@ -31,3 +31,8 @@ def power(base: int, exp: int) -> int:
 def modulo(a: int, b: int) -> int:
     """取模"""
     return a % b
+
+
+def absolute(n: int) -> int:
+    """绝对值"""
+    return abs(n)
