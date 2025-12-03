@@ -9,3 +9,8 @@ def sum_list(lst: list) -> int:
 def max_list(lst: list):
     """最大值"""
     return max(lst)
+
+
+def min_list(lst: list):
+    """最小值"""
+    return min(lst)
