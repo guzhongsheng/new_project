@@ -24,3 +24,8 @@ def avg_list(lst: list) -> float:
 def reverse_list(lst: list) -> list:
     """反转列表"""
     return lst[::-1]
+
+
+def unique_list(lst: list) -> list:
+    """去重"""
+    return list(set(lst))
