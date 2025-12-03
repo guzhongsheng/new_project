@@ -10,3 +10,8 @@ def md5(s: str) -> str:
 def sha256(s: str) -> str:
     """SHA256哈希"""
     return hashlib.sha256(s.encode()).hexdigest()
+
+
+def sha1(s: str) -> str:
+    """SHA1哈希"""
+    return hashlib.sha1(s.encode()).hexdigest()
