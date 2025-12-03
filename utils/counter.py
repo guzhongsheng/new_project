@@ -20,3 +20,7 @@ class Counter:
     def reset(self) -> None:
         """重置为0"""
         self.value = 0
+
+    def get(self) -> int:
+        """获取当前值"""
+        return self.value
