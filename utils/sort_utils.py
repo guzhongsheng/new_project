@@ -10,3 +10,14 @@ def bubble_sort(lst: list) -> list:
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
+
+
+def quick_sort(lst: list) -> list:
+    """快速排序"""
+    if len(lst) <= 1:
+        return lst
+    pivot = lst[len(lst) // 2]
+    left = [x for x in lst if x < pivot]
+    middle = [x for x in lst if x == pivot]
+    right = [x for x in lst if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
