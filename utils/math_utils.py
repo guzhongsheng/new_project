@@ -21,3 +21,8 @@ def divide(a: int, b: int) -> float:
     if b == 0:
         raise ValueError("除数不能为0")
     return a / b
+
+
+def power(base: int, exp: int) -> int:
+    """幂运算"""
+    return base ** exp
