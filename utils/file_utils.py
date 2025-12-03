@@ -20,3 +20,8 @@ def get_extension(path: str) -> str:
 def get_filename(path: str) -> str:
     """获取文件名"""
     return os.path.basename(path)
+
+
+def get_dir(path: str) -> str:
+    """获取目录路径"""
+    return os.path.dirname(path)
