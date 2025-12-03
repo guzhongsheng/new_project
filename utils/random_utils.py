@@ -15,3 +15,10 @@ def random_float(a: float, b: float) -> float:
 def random_choice(lst: list):
     """从列表随机选择"""
     return random.choice(lst)
+
+
+def shuffle(lst: list) -> list:
+    """打乱列表"""
+    result = lst.copy()
+    random.shuffle(result)
+    return result
