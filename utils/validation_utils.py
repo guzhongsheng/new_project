@@ -18,3 +18,8 @@ def is_url(s: str) -> bool:
     """验证URL格式"""
     pattern = r'^https?://[\w\.-]+\.\w+'
     return bool(re.match(pattern, s))
+
+
+def is_numeric(s: str) -> bool:
+    """验证是否为数字"""
+    return s.isdigit()
