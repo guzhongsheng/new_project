@@ -19,3 +19,8 @@ def lowercase(s: str) -> str:
 def capitalize(s: str) -> str:
     """首字母大写"""
     return s.capitalize()
+
+
+def count_chars(s: str) -> int:
+    """统计字符数"""
+    return len(s)
