@@ -14,3 +14,8 @@ def to_float(s: str) -> float:
 def to_bool(s: str) -> bool:
     """字符串转布尔"""
     return s.lower() in ('true', '1', 'yes')
+
+
+def to_hex(n: int) -> str:
+    """整数转十六进制"""
+    return hex(n)
