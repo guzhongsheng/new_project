@@ -21,3 +21,8 @@ def binary_search(lst: list, target) -> int:
         else:
             right = mid - 1
     return -1
+
+
+def find_all(lst: list, target) -> list:
+    """查找所有匹配项的索引"""
+    return [i for i, item in enumerate(lst) if item == target]
