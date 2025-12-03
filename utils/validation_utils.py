@@ -23,3 +23,8 @@ def is_url(s: str) -> bool:
 def is_numeric(s: str) -> bool:
     """验证是否为数字"""
     return s.isdigit()
+
+
+def is_alpha(s: str) -> bool:
+    """验证是否为字母"""
+    return s.isalpha()
