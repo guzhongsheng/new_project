@@ -10,3 +10,8 @@ def to_json(obj) -> str:
 def from_json(s: str):
     """JSON字符串转对象"""
     return json.loads(s)
+
+
+def pretty_json(obj) -> str:
+    """格式化JSON输出"""
+    return json.dumps(obj, ensure_ascii=False, indent=2)
