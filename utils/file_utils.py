@@ -10,3 +10,8 @@ def file_exists(path: str) -> bool:
 def dir_exists(path: str) -> bool:
     """判断目录是否存在"""
     return os.path.isdir(path)
+
+
+def get_extension(path: str) -> str:
+    """获取文件扩展名"""
+    return os.path.splitext(path)[1]
