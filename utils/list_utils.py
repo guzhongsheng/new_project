@@ -29,3 +29,14 @@ def reverse_list(lst: list) -> list:
 def unique_list(lst: list) -> list:
     """去重"""
     return list(set(lst))
+
+
+def flatten(lst: list) -> list:
+    """展平嵌套列表"""
+    result = []
+    for item in lst:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
