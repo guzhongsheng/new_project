@@ -10,3 +10,8 @@ def random_int(a: int, b: int) -> int:
 def random_float(a: float, b: float) -> float:
     """生成随机浮点数"""
     return random.uniform(a, b)
+
+
+def random_choice(lst: list):
+    """从列表随机选择"""
+    return random.choice(lst)
