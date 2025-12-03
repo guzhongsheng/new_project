@@ -20,3 +20,8 @@ def year() -> int:
 def month() -> int:
     """获取当前月份"""
     return datetime.now().month
+
+
+def day() -> int:
+    """获取当前日"""
+    return datetime.now().day
