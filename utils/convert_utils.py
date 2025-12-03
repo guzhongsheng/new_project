@@ -24,3 +24,8 @@ def to_hex(n: int) -> str:
 def to_binary(n: int) -> str:
     """整数转二进制"""
     return bin(n)
+
+
+def celsius_to_fahrenheit(c: float) -> float:
+    """摄氏度转华氏度"""
+    return c * 9 / 5 + 32
