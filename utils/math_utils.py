@@ -26,3 +26,8 @@ def divide(a: int, b: int) -> float:
 def power(base: int, exp: int) -> int:
     """幂运算"""
     return base ** exp
+
+
+def modulo(a: int, b: int) -> int:
+    """取模"""
+    return a % b
