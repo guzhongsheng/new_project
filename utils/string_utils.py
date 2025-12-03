@@ -14,3 +14,8 @@ def uppercase(s: str) -> str:
 def lowercase(s: str) -> str:
     """转小写"""
     return s.lower()
+
+
+def capitalize(s: str) -> str:
+    """首字母大写"""
+    return s.capitalize()
