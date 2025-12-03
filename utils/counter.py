@@ -16,3 +16,7 @@ class Counter:
         """减少1"""
         self.value -= 1
         return self.value
+
+    def reset(self) -> None:
+        """重置为0"""
+        self.value = 0
