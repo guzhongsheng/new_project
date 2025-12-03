@@ -25,3 +25,8 @@ def get_filename(path: str) -> str:
 def get_dir(path: str) -> str:
     """获取目录路径"""
     return os.path.dirname(path)
+
+
+def list_files(path: str) -> list:
+    """列出目录中的文件"""
+    return os.listdir(path)
