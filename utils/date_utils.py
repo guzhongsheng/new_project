@@ -25,3 +25,8 @@ def month() -> int:
 def day() -> int:
     """获取当前日"""
     return datetime.now().day
+
+
+def weekday() -> int:
+    """获取星期几 (0=周一, 6=周日)"""
+    return datetime.now().weekday()
