@@ -6,3 +6,8 @@ class Counter:
 
     def __init__(self, start: int = 0):
         self.value = start
+
+    def increment(self) -> int:
+        """增加1"""
+        self.value += 1
+        return self.value
