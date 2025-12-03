@@ -29,3 +29,8 @@ def to_binary(n: int) -> str:
 def celsius_to_fahrenheit(c: float) -> float:
     """摄氏度转华氏度"""
     return c * 9 / 5 + 32
+
+
+def fahrenheit_to_celsius(f: float) -> float:
+    """华氏度转摄氏度"""
+    return (f - 32) * 5 / 9
