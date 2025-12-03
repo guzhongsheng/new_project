@@ -19,3 +19,8 @@ def min_list(lst: list):
 def avg_list(lst: list) -> float:
     """平均值"""
     return sum(lst) / len(lst) if lst else 0
+
+
+def reverse_list(lst: list) -> list:
+    """反转列表"""
+    return lst[::-1]
