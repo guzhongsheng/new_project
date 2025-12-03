@@ -11,3 +11,8 @@ class Counter:
         """增加1"""
         self.value += 1
         return self.value
+
+    def decrement(self) -> int:
+        """减少1"""
+        self.value -= 1
+        return self.value
