@@ -22,3 +22,8 @@ def shuffle(lst: list) -> list:
     result = lst.copy()
     random.shuffle(result)
     return result
+
+
+def random_bool() -> bool:
+    """随机布尔值"""
+    return random.choice([True, False])
