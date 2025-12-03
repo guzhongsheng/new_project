@@ -24,3 +24,8 @@ def capitalize(s: str) -> str:
 def count_chars(s: str) -> int:
     """统计字符数"""
     return len(s)
+
+
+def is_palindrome(s: str) -> bool:
+    """判断是否为回文"""
+    return s == s[::-1]
