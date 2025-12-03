@@ -9,3 +9,8 @@ def reverse(s: str) -> str:
 def uppercase(s: str) -> str:
     """转大写"""
     return s.upper()
+
+
+def lowercase(s: str) -> str:
+    """转小写"""
+    return s.lower()
