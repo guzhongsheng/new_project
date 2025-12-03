@@ -14,3 +14,8 @@ def max_list(lst: list):
 def min_list(lst: list):
     """最小值"""
     return min(lst)
+
+
+def avg_list(lst: list) -> float:
+    """平均值"""
+    return sum(lst) / len(lst) if lst else 0
