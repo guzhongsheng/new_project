@@ -15,3 +15,8 @@ def today() -> str:
 def year() -> int:
     """获取当前年份"""
     return datetime.now().year
+
+
+def month() -> int:
+    """获取当前月份"""
+    return datetime.now().month
