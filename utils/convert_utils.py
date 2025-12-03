@@ -19,3 +19,8 @@ def to_bool(s: str) -> bool:
 def to_hex(n: int) -> str:
     """整数转十六进制"""
     return hex(n)
+
+
+def to_binary(n: int) -> str:
+    """整数转二进制"""
+    return bin(n)
